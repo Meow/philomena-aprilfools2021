@@ -6,43 +6,43 @@
 // ///// SECTION 1 - MAIN COLORS /////
 // ///////////////////////////////////
 
-$background_color: #1d242f;
-$page_background_color: #141a24;
+$background_color: #050505;
+$page_background_color: #000000;
 $foreground_color: #e0e0e0;
 
-$base_color: #546c99;
+$base_color: #ff9900;
 
-$primary_light_color: #1a4c6b;
+$primary_light_color: #6b5f1a;
 $success_light_color: #144714;
 $danger_light_color: #66211f;
 $warning_light_color: #7d4825;
 
 $destroyed_content_color: #382c2f;
 
-$meta_color: #191f2a;
+$meta_color: #1a1a1a;
 
-$header_color: #284371;
-$header_field_color: #1c3252;
-$header_secondary_color: #1d2b44;
+$header_color: #101010;
+$header_field_color: #2a2a2a;
+$header_secondary_color: #1f1f1f;
 $header_admin_color: #3b1d1d;
 
-$block_header_color: #2e3a52;
-$block_header_link_text_color: #4f95db;
+$block_header_color: #202020;
+$block_header_link_text_color: $base_color;
 
-$block_header_light_color: #252d3c;
-$block_header_light_link_text_color: #6198c2;
+$block_header_light_color: #1a1a1a;
+$block_header_light_link_text_color: $base_color;
 
-$border_color: #2d3649;
+$border_color: $block_header_color;
 
-$media_box_color: #3d4657;
+$media_box_color: #4e4e4e;
 
-$link_color: #478acc;
-$link_hover_color: #b099dd;
+$link_color: $base_color;
+$link_hover_color: lighten($base_color, 35%);
 
-$fave_color: #a18e27;
-$vote_up_color: #5b9b26;
-$vote_down_color: #da3412;
-$hide_color: #da3412;
+$fave_color: $base_color;
+$vote_up_color: $base_color;
+$vote_down_color: $base_color;
+$hide_color: $base_color;
 
 $assistant_color: #511b4e;
 

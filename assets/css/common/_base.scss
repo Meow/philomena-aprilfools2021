@@ -336,13 +336,15 @@ blockquote {
 }
 
 i.favicon-home {
-  background-image: url("/favicon.svg");
+  background-image: url("/preenhub.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50%;
   min-width: 1em;
   height: 1em;
+  font-size: 20px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 // changelog
@@ -409,4 +411,23 @@ span.stat {
 
 .hidden {
   display: none !important;
+}
+
+.preenhub {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: $header_height - 8px;
+}
+
+.hub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $base_color;
+  border: 1px solid $base_color;
+  border-radius: 4px;
+  color: $background_color;
+  height: $header_height - 8px;
+  margin-top: 4px;
 }

@@ -28,7 +28,7 @@ a.interaction--fave {
   &.active,
   &:hover {
     background: $fave_color;
-    color: $text_light_color;
+    color: $background_color;
   }
 }
 
@@ -37,7 +37,7 @@ a.interaction--upvote {
   &.active,
   &:hover {
     background: $vote_up_color;
-    color: $text_light_color;
+    color: $background_color;
   }
 }
 
@@ -46,7 +46,7 @@ a.interaction--downvote {
   &.active,
   &:hover {
     background: $vote_down_color;
-    color: $text_light_color;
+    color: $background_color;
   }
 }
 
@@ -55,14 +55,14 @@ a.interaction--hide {
   &.active,
   &:hover {
     background: $hide_color;
-    color: $text_light_color;
+    color: $background_color;
   }
 }
 
 a.interaction--comments {
-  color: $link_hover_color;
+  color: $base_color;
   &:hover {
-    background: $link_hover_color;
+    background: $base_color;
     color: $background_color;
   }
 }
